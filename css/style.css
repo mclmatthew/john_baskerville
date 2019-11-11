@@ -27,6 +27,11 @@ h3 {
 }
 
 p,
+cite {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
 blockqoute {
     margin-bottom: 1.5em;
     line-height: 1.4;
@@ -57,6 +62,14 @@ blockquote {
 
 blockquote cite {
     font-size: 0.75em;
+}
+
+header h3 {
+    font-style: italic;
+}
+
+header p {
+    font-size: 1.414em;
 }
 
 /*---------- FOOTER ----------*/
