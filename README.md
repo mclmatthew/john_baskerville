@@ -1,4 +1,4 @@
-# john_baskerville
+# John Baskerville
 
 [Version 1](https://mclmatthew.github.io/john_baskerville/baskerville1.html)
 *28 October 2019* - **Basic HTML**
