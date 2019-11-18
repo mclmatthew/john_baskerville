@@ -22,3 +22,6 @@
 
 [Version 3](https://mclmatthew.github.io/john_baskerville/history3.html)
 *11 November 2019* - **More CSS & Added Google fonts**
+
+[Verison 4](https://mclmatthew.github.io/john_baskerville/history4.html)
+*18 November 2019* - **Styling NavBar**
