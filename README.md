@@ -9,6 +9,9 @@
 [Version 3](https://mclmatthew.github.io/john_baskerville/baskerville3.html)
 *11 November 2019* - **More CSS & Added Google fonts**
 
+[Verison 4](https://mclmatthew.github.io/john_baskerville/baskerville4.html)
+*18 November 2019* - **Styling NavBar**
+
 # History of Type
 
 [Version 1](https://mclmatthew.github.io/john_baskerville/history1.html)

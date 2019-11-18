@@ -72,6 +72,52 @@ header p {
     font-size: 1.414em;
 }
 
+/*------ STYLING LINKS -----------*/
+
+a {
+    color: #FFA74E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: indianred;
+    border-bottom: 1px solid;
+}
+
+
+/*-------------- NAV BAR ----------------*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #FFA74E;
+    padding: 1em 0;
+    font-size: 0.75em;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: indianred;
+}
+
 /*---------- FOOTER ----------*/
 
 footer {
