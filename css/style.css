@@ -72,6 +72,24 @@ header p {
     font-size: 1.414em;
 }
 
+.type-list {
+    margin: 1em 0;
+}
+
+.type-list ul {
+    margin: 2.2em 0;
+    list-style: none;
+}
+
+.type-list ul li {
+    margin: 0.5em 0;
+}
+
+.list-title {
+    font-size: 1.2em;
+    color: #FFA74E;
+}
+
 /*------ STYLING LINKS -----------*/
 
 a {
@@ -86,7 +104,6 @@ a:hover {
 
 
 /*-------------- NAV BAR ----------------*/
-
 nav {
     position: fixed;
     top: 0;
