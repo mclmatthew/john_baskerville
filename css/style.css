@@ -27,7 +27,8 @@ h3 {
 }
 
 p,
-cite {
+cite,
+table {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -72,22 +73,49 @@ header p {
     font-size: 1.414em;
 }
 
-.type-list {
-    margin: 1em 0;
+/*------ TABLES -----------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
-.type-list ul {
-    margin: 2.2em 0;
-    list-style: none;
+caption {
+    margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
-.type-list ul li {
-    margin: 0.5em 0;
+th {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #FFA74E;
 }
 
-.list-title {
-    font-size: 1.2em;
-    color: #FFA74E;
+th,
+td {
+    padding: .6em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+table,
+td {
+    background: #fff;
+    border: 1px solid #FFA74E;
+}
+
+/*------ IMAGES -----------*/
+
+img {
+    display: block;
+    margin: 2.5em auto;
+    padding: 0;
+    max-width: 100%;
 }
 
 /*------ STYLING LINKS -----------*/
