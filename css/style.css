@@ -10,10 +10,37 @@
 body {
     width: 80%;
     max-width: 650px;
-    margin: auto;
     background: #fafafa;
     color: #333;
     font-family: 'Libre Baskerville', serif;
+    margin: auto;
+}
+
+/*---------- ADDING FLEXBOX ----------*/
+
+article {
+    display: flex;
+}
+
+section,
+aside,
+header,
+footer {
+    width: 80%;
+    max-width: 600px;
+}
+
+.main {
+    flex: 3;
+    padding-right: 1em;
+}
+
+aside {
+    flex: 1;
+    font-size: 0.75em;
+    font-style: italic;
+    border-left: 1px solid #FFA74E;
+    padding-left: 1em;
 }
 
 /*---------- TYPOGRAPHY ----------*/
@@ -169,4 +196,39 @@ footer {
     text-align: center;
     font-size: 0.707em;
     padding: 2em 0 4em 0;
+}
+
+/*---------- MEDIA SCREENS ----------*/
+
+@media (max-width:50em) {
+
+    body {
+        width: 90%;
+    }
+
+    article {
+        flex-flow: column;
+        flex-direction: column;
+    }
+
+    aside {
+        flex: 1;
+        font-size: 1em;
+        font-style: normal;
+        border-left: 0px solid #FFA74E;
+        padding-left: 0em;
+    }
+
+    .back_to_top img {
+        display: none;
+    }
+
+}
+
+@media (max-width:60em) {
+
+    body {
+        width: 60%;
+    }
+
 }

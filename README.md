@@ -13,7 +13,7 @@
 *18 November 2019* - **Styling NavBar**
 
 [Verison 5](https://mclmatthew.github.io/john_baskerville/baskerville5.html)
-*18 November 2019* - **Adding/styling Tables & Including images**
+*25 November 2019* - **Adding/styling Tables & Including images**
 
 # History of Type
 
@@ -28,3 +28,6 @@
 
 [Verison 4](https://mclmatthew.github.io/john_baskerville/history4.html)
 *18 November 2019* - **Styling NavBar**
+
+[Verison 5](https://mclmatthew.github.io/john_baskerville/history5.html)
+*25 November 2019* - **Adding/styling Tables & Including images**
