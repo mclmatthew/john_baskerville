@@ -15,6 +15,9 @@
 [Verison 5](https://mclmatthew.github.io/john_baskerville/baskerville5.html)
 *25 November 2019* - **Adding/styling Tables & Including images**
 
+[Verison 6](https://mclmatthew.github.io/john_baskerville/baskerville6.html)
+*3 December 2019*
+
 # History of Type
 
 [Version 1](https://mclmatthew.github.io/john_baskerville/history1.html)
