@@ -1,0 +1,207 @@
+/*---------- CSS RESET ----------*/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*---------- MAIN STYLING ----------*/
+body {
+    width: 80%;
+    max-width: 650px;
+    background: #fafafa;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+}
+
+/*---------- TYPOGRAPHY ----------*/
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    color: #FFA74E;
+    text-align: center;
+}
+
+p,
+cite,
+table {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+blockqoute {
+    margin-bottom: 1.5em;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2.827em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    font-size: 1.999em;
+    margin: 3em 0 1em 0;
+}
+
+h3 {
+    font-size: 1.414em;
+    margin-bottom: 1.5em;
+}
+
+blockquote {
+    font-size: 1.414em;
+    hanging-punctuation: first;
+    text-indent: -0.45em;
+    color: #FFA74E;
+}
+
+blockquote cite {
+    font-size: 0.75em;
+}
+
+header h3 {
+    font-style: italic;
+}
+
+header p {
+    font-size: 1.414em;
+}
+
+/*------ TABLES -----------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+caption {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+th {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #FFA74E;
+}
+
+th,
+td {
+    padding: .6em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+table,
+td {
+    background: #fff;
+    border: 1px solid #FFA74E;
+}
+
+/*------ IMAGES -----------*/
+
+img {
+    display: block;
+    margin: 2.5em auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*------ STYLING LINKS -----------*/
+
+a {
+    color: #FFA74E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: indianred;
+    border-bottom: 1px solid;
+}
+
+
+/*-------------- NAV BAR ----------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #FFA74E;
+    padding: 1em 0;
+    font-size: 0.75em;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: indianred;
+}
+
+/*---------- FOOTER ----------*/
+
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 4em 0;
+}
+
+/*---------- MEDIA SCREENS ----------*/
+
+@media (max-width:50em) {
+
+    body {
+        width: 90%;
+    }
+
+    article {
+        flex-flow: column;
+        flex-direction: column;
+    }
+
+    aside {
+        flex: 1;
+        font-size: 1em;
+        font-style: normal;
+        border-left: 0px solid #FFA74E;
+        padding-left: 0em;
+    }
+
+    .back_to_top img {
+        display: none;
+    }
+
+}
+
+@media (max-width:60em) {
+
+    body {
+        width: 60%;
+    }
+
+}
