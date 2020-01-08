@@ -14,9 +14,12 @@
 
 [Verison 5](https://mclmatthew.github.io/john_baskerville/baskerville5.html)
 *25 November 2019* - **Adding/styling Tables & Including images**
+<<<<<<< HEAD
 
 [Verison 6](https://mclmatthew.github.io/john_baskerville/baskerville6.html)
 *3 December 2019*
+=======
+>>>>>>> eb82e6cabac8ee08f3463c9da17f5c8f8d416778
 
 # History of Type
 
@@ -31,3 +34,6 @@
 
 [Verison 4](https://mclmatthew.github.io/john_baskerville/history4.html)
 *18 November 2019* - **Styling NavBar**
+
+[Verison 5](https://mclmatthew.github.io/john_baskerville/history5.html)
+*25 November 2019* - **Adding/styling Tables & Including images**
